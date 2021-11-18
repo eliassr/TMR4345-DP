@@ -10,4 +10,8 @@ Using Phidget servo interface, a small boat model in a basin is controlled using
 
 ## Contents of this repository
 
-The repository will contain the code used during the project, and Python code for post-processing of recorded data during experimental testing. To replicate the project, [Phidget drivers](https://www.phidgets.com/) and API will need to be downloaded and used alongside the provided code. 
+The repository will contain the code used during the project, and Python code for post-processing of recorded data during experimental testing. To replicate the project, [Phidget drivers](https://www.phidgets.com/) and API will need to be downloaded and used alongside the provided code.
+
+## License
+
+The project is licensed under the MIT license. See LICENSE.md for more info.
