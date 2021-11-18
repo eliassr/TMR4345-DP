@@ -6,10 +6,7 @@ rcParams.update(params)
 cases = ["case1","case2","case3","case4","case5"]
 for case in cases:
   arr = loadtxt(case + ".txt")
-  pos = arr[:,0]
-  dev = arr[:,1]
-  input = arr[:,2]
-  t = arr[:,3]
+  pos,dev,input,t = [arr[:,i] for i in range(size(arr,1))]
 
   fig, (p1,p2,p3) = subplots(3,sharex=True)
   p1.plot(t,pos,color='royalblue')
